@@ -1,29 +1,31 @@
 # Satellite and Space Objects Monitoring System
 
-Système de monitoring en temps réel des satellites et objets spatiaux utilisant une architecture Lambda avec Apache Spark, Kafka, et Cassandra.
+A real-time monitoring platform for satellites and space debris, built with a **Lambda Architecture** using **Apache Spark**, **Kafka**, and **Cassandra**.
 
-## Fonctionnalités
+## Features
 
-- Ingestion en temps réel des données TLE (Two-Line Elements)
-- Calcul des positions satellites en temps réel
-- Détection de risques de collision
-- Analyse de patterns orbitaux
-- Dashboard de visualisation 3D
-- Prédiction de trajectoires
+* Real-time ingestion of **TLE (Two-Line Element)** data
+* Real-time computation of satellite positions
+* **Collision risk detection** and alert notifications
+* **Orbital pattern analysis** and anomaly detection
+* Interactive **3D visualization dashboard**
+* **Trajectory prediction** using both historical and live data
 
-## Architecture
+## System Architecture
 
-- **Ingestion**: Apache Kafka
-- **Processing**: Apache Spark (Batch + Streaming)
-- **Storage**: HDFS + Cassandra + Redis
-- **Orchestration**: Kubernetes
-- **API**: FastAPI
-- **Monitoring**: Prometheus + Grafana
+| Layer             | Technologies                     |
+| ----------------- | -------------------------------- |
+| **Ingestion**     | Apache Kafka                     |
+| **Processing**    | Apache Spark (Batch + Streaming) |
+| **Storage**       | HDFS · Cassandra · Redis         |
+| **Orchestration** | Kubernetes                       |
+| **API**           | FastAPI                          |
+| **Monitoring**    | Prometheus · Grafana             |
 
 ## Installation
 
-Voir [INSTALLATION.md](INSTALLATION.md)
+See the [INSTALLATION.md](INSTALLATION.md) file for detailed setup instructions.
 
-## Utilisation
+## 🛰️ Usage
 
-Voir [USAGE.md](USAGE.md)
+Refer to [USAGE.md](USAGE.md) for usage examples and workflow details.
